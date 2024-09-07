@@ -105,13 +105,12 @@ You can push branches and tags to remote repositories:
 git push origin bugfix: Pushes the `bugfix` branch.
 git push origin v1.0: Pushes the `v1.0` tag to the remote.
 
-Cherry-picking
-git checkout main
-git fetch origin
-git log
-git cherry-pick <commit_hash>
-
-git cherry-pick –continue
-git push origin main
+13. Cherry-picking
+- git checkout main
+- git fetch origin
+- git log
+- git cherry-pick <commit_hash>
+- git cherry-pick –continue
+- git push origin main
 
 # Thank You!
